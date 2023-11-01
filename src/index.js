@@ -1,6 +1,7 @@
 import pageLoad from "./pageLoad.js";
 import createMenuPage from "./menu.js";
 import createRestaurantHomePage from "./home.js";
+import createContactPage from "./contact.js";
 
 pageLoad();
 
@@ -17,4 +18,9 @@ homeButton.addEventListener("click", () => {
 menuButton.addEventListener("click", () => {
   content.innerHTML = ``;
   createMenuPage();
+});
+
+contactButton.addEventListener("click", () => {
+  content.innerHTML = ``;
+  createContactPage();
 });

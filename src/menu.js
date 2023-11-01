@@ -15,7 +15,7 @@ const createMenuPage = () => {
   `;
 
   main.appendChild(header);
-  main.appendChild(desc);
+  main.appendChild(menu);
 };
 
 export default createMenuPage;
