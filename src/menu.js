@@ -1,17 +1,17 @@
 const createMenuPage = () => {
   const main = document.querySelector("#content");
   let header = document.createElement("header");
-  let desc = document.createElement("div");
+  let menu = document.createElement("div");
 
   header.innerHTML = `
         <h1>Menu</h1>
     `;
 
-  desc.textContent = `
-    Glizzark: $20
-    Buns: $10
-    Corn dog: $16
-    The whole restaurant: $30
+  menu.innerHTML = `
+    Glizzark: $20 <br>
+    Buns: $10 <br>
+    Corn dog: $16 <br>
+    The whole restaurant: $50
   `;
 
   main.appendChild(header);
